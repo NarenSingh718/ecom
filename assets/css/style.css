@@ -1,0 +1,1905 @@
+h1, h2, h3, h4, h5, h6, li, p, span, td {
+	font-family: Montserrat, sans-serif;
+}
+ .btn-black {
+	 background: #000;
+	 color: #fff;
+}
+ .btn-black:hover {
+	 color: #fff;
+}
+ .btn-white {
+	 background: #fff;
+	 color: #000;
+}
+ .btn-white:hover {
+	 color: #000;
+	 border: 1px solid #000;
+}
+ #leverageProcessRoadmap .imgLeveProcess img {
+	 width: 50%;
+}
+ .navbar .actions {
+	 display: flex;
+	 align-items: center;
+}
+ .navbar .actions .call-email {
+	 height: 30px;
+	 border: 1px solid #fff;
+	 box-sizing: border-box;
+	 border-radius: 8px;
+	 font-style: normal;
+	 font-weight: 400;
+	 font-size: 12px;
+	 line-height: 12px;
+	 display: flex;
+	 align-items: center;
+	 color: #fff;
+	 padding: 0 10px;
+	 margin-right: 6px;
+	 text-decoration: none;
+}
+ .navbar .actions .call-email strong {
+	 margin-left: 5px;
+}
+ nav.navbar .whatsappIcon {
+	 height: 30px;
+	 width: 30px;
+}
+ .no-pad {
+	 margin-left: 0 !important;
+	 padding: 0 25px;
+}
+ #leverageProcessRoadmap.mobile {
+	 overflow: hidden;
+	 padding: 30px 0;
+	 display: none;
+}
+ #leverageProcessRoadmap.mobile .imgLeveProcess {
+	 text-align: left;
+}
+ #leverageProcessRoadmap.mobile .imgLeveProcess h1 {
+	 font-weight: 700;
+	 font-size: 20px !important;
+	 line-height: 150%;
+	 width: 90%;
+	 margin: 15px auto 5px;
+	 text-align: left;
+	 text-transform: capitalize;
+	 color: #000;
+}
+ #leverageProcessRoadmap.mobile .imgLeveProcess h1::before {
+	 display: none;
+}
+ #leverageProcessRoadmap.mobile .imgLeveProcess p {
+	 font-weight: 600;
+	 font-size: 12px;
+	 line-height: 150%;
+	 width: 90%;
+	 margin: 0 auto;
+	 text-align: left;
+	 color: #8d8d8d;
+	 margin-bottom: 30px;
+}
+ #leverageProcessRoadmap.mobile .imgLeveProcess img {
+	 margin: 20px 0 0;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card {
+	 border: 0;
+	 overflow: visible;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card:last-child .card-header::after {
+	 height: 85px;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-header {
+	 border: 0;
+	 background: 0 0;
+	 position: relative;
+	 padding-left: 50px;
+	 outline: 0;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-header::before {
+	 content: "";
+	 height: 10px;
+	 width: 10px;
+	 border-radius: 50%;
+	 background: #000;
+	 position: absolute;
+	 top: 27px;
+	 left: 26px;
+	 z-index: 9;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-header::after {
+	 content: "";
+	 height: 60px;
+	 width: 2px;
+	 border: 1px dashed #666;
+	 position: absolute;
+	 top: 38px;
+	 left: 30px;
+	 z-index: 9;
+	 display: none;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-header button {
+	 width: 100%;
+	 text-decoration: none;
+	 position: relative;
+	 background: #fff;
+	 border: 0;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-header button:focus {
+	 -webkit-box-shadow: unset;
+	 box-shadow: unset;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-header button .header {
+	 width: 100%;
+	 text-align: left;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-header button .header h5 {
+	 font-weight: 700;
+	 font-size: 14px;
+	 line-height: 24px;
+	 color: #333;
+	 white-space: normal;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-header button .header p {
+	 font-weight: 700;
+	 font-size: 12px;
+	 line-height: 153.6%;
+	 color: #666;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-header button .navigate {
+	 position: absolute;
+	 right: 30px;
+	 top: 15px;
+	 -webkit-transition: 0.5s;
+	 transition: 0.5s;
+	 -webkit-transform: rotate(-180deg);
+	 transform: rotate(-180deg);
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-header button.collapsed .navigate {
+	 -webkit-transform: rotate(0);
+	 transform: rotate(0);
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-header h5 {
+	 font-weight: 700;
+	 font-size: 20px;
+	 line-height: 24px;
+	 display: -webkit-box;
+	 display: -ms-flexbox;
+	 display: flex;
+	 -webkit-box-align: end;
+	 -ms-flex-align: end;
+	 align-items: flex-end;
+	 color: #333;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-header p {
+	 font-weight: 700;
+	 font-size: 16px;
+	 line-height: 153.6%;
+	 display: -webkit-box;
+	 display: -ms-flexbox;
+	 display: flex;
+	 -webkit-box-align: end;
+	 -ms-flex-align: end;
+	 align-items: flex-end;
+	 color: #666;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-header.active::before {
+	 background: #f6b049;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-header.active::after {
+	 display: none;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-header.active button .header h5 {
+	 color: #0487f3;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-body {
+	 padding: 0;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-body .processBox {
+	 border: 1px dashed #666;
+	 -webkit-box-sizing: border-box;
+	 box-sizing: border-box;
+	 border-radius: 4px;
+	 padding: 20px;
+	 margin-bottom: 20px;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-body .processBox .clearfix .details {
+	 padding-left: 55px;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-body .processBox .clearfix .details h4 {
+	 font-weight: 700;
+	 font-size: 13px;
+	 line-height: 18px;
+	 text-transform: capitalize;
+	 color: #666;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-body .processBox .clearfix .details p {
+	 font-weight: 500;
+	 font-size: 12px;
+	 line-height: 16px;
+	 color: #0487f3;
+	 margin-bottom: 0;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .card .card-body .processBox .p1-1 {
+	 font-weight: 500;
+	 font-size: 12px;
+	 line-height: 150%;
+	 color: #8d8d8d;
+	 margin: 20px 0 0;
+	 border: 1px solid #ccc;
+	 padding: 10px;
+	 background: #f7f7f7;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .eligibilitySection {
+	 padding: 30px;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .eligibilitySection ul {
+	 padding: 0;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .eligibilitySection ul li {
+	 display: inline-block;
+	 list-style-type: none;
+	 width: 50%;
+	 padding: 20px;
+	 border-right: 1px solid #ddd;
+	 border-bottom: 1px solid #ddd;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .eligibilitySection ul li img {
+	 width: 90px;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .eligibilitySection ul li.gmat .padding {
+	 padding: 11px;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .eligibilitySection ul li.gre {
+	 border-right: 0 !important;
+	 padding: 29px 5px;
+	 padding-left: 15px;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .eligibilitySection ul li.toefl {
+	 border-bottom: 0 !important;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .eligibilitySection ul li.ielts {
+	 width: 56px;
+	 border-bottom: 0 !important;
+	 border-right: 0 !important;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .help .h1-1-1-1 {
+	 font-weight: 700;
+	 font-size: 12px;
+	 line-height: 16px;
+	 -webkit-box-align: center;
+	 -ms-flex-align: center;
+	 align-items: center;
+	 color: #666;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .help .mobile-secondaryProceedButton {
+	 height: 45px;
+	 width: 80%;
+	 margin: 0 auto;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .workExp {
+	 font-weight: 700;
+	 font-size: 14px;
+	 line-height: 150%;
+	 text-transform: capitalize;
+	 color: #8d8d8d;
+	 margin-top: 30px;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .workExp span {
+	 font-weight: 700;
+	 font-size: 14px;
+	 line-height: 16px;
+	 color: #f6b049;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .AcceptanceRate {
+	 font-weight: 700;
+	 font-size: 14px;
+	 line-height: 150%;
+	 text-transform: capitalize;
+	 color: #8d8d8d;
+	 margin-top: 30px;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .AcceptanceRate span {
+	 font-weight: 700;
+	 font-size: 14px;
+	 line-height: 16px;
+	 color: #f6b049;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .international {
+	 font-weight: 700;
+	 font-size: 14px;
+	 line-height: 150%;
+	 text-transform: capitalize;
+	 color: #8d8d8d;
+	 margin-top: 30px;
+}
+ #leverageProcessRoadmap.mobile #accordionExample span {
+	 font-weight: 700;
+	 font-size: 14px;
+	 line-height: 16px;
+	 color: #f6b049;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .p-last {
+	 font-weight: 700;
+	 font-size: 12px;
+	 line-height: 150%;
+	 text-align: center;
+	 text-transform: capitalize;
+	 color: #8d8d8d;
+	 margin: 30px 0;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .action p {
+	 font-weight: 700;
+	 font-size: 16px;
+	 line-height: 153.6%;
+	 color: #333;
+}
+ #leverageProcessRoadmap.mobile #accordionExample .action button {
+	 width: 70%;
+	 margin: 0 auto;
+	 margin-bottom: 50px;
+}
+ .formGroup {
+	 position: relative;
+	 margin-bottom: 15px;
+	 margin-top: 10px;
+}
+ .formGroup .iti {
+	 width: 100%;
+}
+ .formGroup input {
+	 padding-right: 50px;
+}
+ .formGroup.icon-user::after {
+	 content: "";
+	 height: 15px;
+	 width: 15px;
+	 background: url(https://leverageedunew.s3.us-east-1.amazonaws.com/assets/img/lp/icons/user.svg);
+	 background-position: center;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 position: absolute;
+	 right: 15px;
+	 top: 13px;
+}
+ .formGroup.icon-email::after {
+	 content: "";
+	 height: 15px;
+	 width: 15px;
+	 background: url(https://leverageedunew.s3.us-east-1.amazonaws.com/assets/img/lp/icons/email.svg);
+	 background-position: center;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 position: absolute;
+	 right: 15px;
+	 top: 13px;
+}
+ .formGroup.icon-call::after {
+	 content: "";
+	 height: 15px;
+	 width: 15px;
+	 background: url(https://leverageedunew.s3.us-east-1.amazonaws.com/assets/img/lp/icons/call.svg);
+	 background-position: center;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 position: absolute;
+	 right: 15px;
+	 top: 13px;
+}
+ .formGroup.icon-location::after {
+	 content: "";
+	 height: 15px;
+	 width: 15px;
+	 background: url(https://leverageedunew.s3.us-east-1.amazonaws.com/assets/img/lp/icons/location.svg);
+	 background-position: center;
+	 background-size: contain;
+	 background-repeat: no-repeat;
+	 position: absolute;
+	 right: 15px;
+	 top: 13px;
+}
+ .web-hide {
+	 display: none !important;
+}
+ #roadMapSection {
+	 padding: 40px;
+}
+ #roadMapSection .roadmap-slide .mentorBox {
+	 display: none;
+	 opacity: 1;
+	 -webkit-animation: fadein 1s linear;
+	 animation: fadein 1s linear;
+}
+ #roadMapSection .imgBox {
+	 text-align: right;
+}
+ #roadMapSection .imgBox img {
+	 vertical-align: middle;
+	 width: 100%;
+	 max-width: 415px;
+}
+ #roadMapSection .process .show {
+	 display: inline-block !important;
+}
+ #roadMapSection .process .hide {
+	 display: none;
+}
+ #roadMapSection .process h2.t-h-text {
+	 font-weight: 700;
+	 font-size: 27px;
+	 text-transform: capitalize;
+	 color: #333;
+	 padding-top: 5px;
+	 font-weight: 800;
+	 font-weight: 700;
+}
+ #roadMapSection .process p {
+	 margin-bottom: 70px;
+	 margin-top: 30px;
+}
+ #roadMapSection .process p.t-p-text {
+	 font-size: 18px;
+	 line-height: 31px;
+}
+ #roadMapSection .process span.mentor-head {
+	 font-weight: 700;
+	 font-size: 20px;
+	 line-height: 24px;
+	 color: #333;
+	 font-weight: 800;
+}
+ #roadMapSection .process span.badge {
+	 background: orange;
+	 padding: 5px;
+	 color: #000;
+	 font-size: 16px;
+	 font-weight: 500;
+}
+ #roadMapSection .process .mentor-matching {
+	 position: absolute;
+	 margin-left: 53px;
+	 margin-top: -5px;
+}
+ #roadMapSection .process ul {
+	 padding: 0 30px 0 0;
+	 border-left: 1px solid #f4ecec;
+}
+ #roadMapSection .process ul li {
+	 list-style-type: none;
+	 font-weight: 700;
+	 font-size: 18px;
+	 line-height: 24px;
+	 color: #333;
+	 padding-top: 5px;
+	 border-left: 4px solid transparent;
+	 padding: 6px 15px 6px 50px;
+	 margin: 20px 0;
+	 margin-left: -2px;
+	 cursor: pointer;
+}
+ #roadMapSection .process ul li .line {
+	 width: 265px;
+	 display: inline-block;
+	 height: 6px;
+	 margin-left: 30px;
+	 border-top: 2px dashed;
+	 position: relative;
+}
+ #roadMapSection .process ul li .line::before {
+	 content: "";
+	 position: absolute;
+	 left: 0;
+	 height: 10px;
+	 width: 10px;
+	 top: -6px;
+	 border-radius: 50%;
+	 background: #0487f3;
+}
+ #roadMapSection .process ul li .line::after {
+	 content: "";
+	 position: absolute;
+	 right: 0;
+	 height: 10px;
+	 width: 10px;
+	 top: -6px;
+	 border-radius: 50%;
+	 background: #0487f3;
+}
+ #roadMapSection .process ul li .line.mentor {
+	 width: 355px;
+}
+ #roadMapSection .process ul li .line.personal {
+	 width: 308px;
+}
+ #roadMapSection .process ul li .line.Goal {
+	 width: 421px;
+}
+ #roadMapSection .process ul li .line.Fitment {
+	 width: 310px;
+}
+ #roadMapSection .process ul li .line.Resume {
+	 width: 368px;
+}
+ #roadMapSection .process ul li .line.Essay {
+	 width: 398px;
+}
+ #roadMapSection .process ul li .line.Letters {
+	 width: 275px;
+}
+ #roadMapSection .process ul li .line.Interview {
+	 width: 327px;
+}
+ #roadMapSection .process ul li .line.scholarship {
+	 width: 150px;
+}
+ #roadMapSection .process ul li .holder {
+	 font-weight: 700;
+	 font-weight: 600;
+}
+ #roadMapSection .process ul li .boxes {
+	 position: absolute;
+	 width: 350px;
+	 border: 1px dashed #ccc;
+	 padding: 15px 15px 40px;
+	 -webkit-transition: 0.5s;
+	 transition: 0.5s;
+	 background: #fff;
+	 right: 0;
+}
+ #roadMapSection .process ul li .boxes img {
+	 margin: 10px 20px;
+}
+ #roadMapSection .process ul li .boxes h5 {
+	 font-weight: 700;
+	 font-size: 15px;
+	 line-height: 20px;
+	 color: #666;
+	 text-transform: capitalize;
+	 font-weight: 600;
+	 text-align: left;
+}
+ #roadMapSection .process ul li .boxes h6 {
+	 font-weight: 700;
+	 font-size: 15px;
+	 line-height: 16px;
+	 color: #0487f3;
+	 margin: 15px 0;
+	 font-weight: 600;
+	 text-align: left;
+}
+ #roadMapSection .process ul li .boxes p {
+	 font-size: 14px;
+	 line-height: 20px;
+	 text-align: left;
+	 color: #333;
+	 margin: 0;
+	 border: 1px solid #ccc;
+	 padding: 10px;
+	 background: #f3f3f3;
+}
+ #roadMapSection .process ul li .boxes.mentor {
+	 margin-left: -48px;
+	 margin-top: -42px;
+}
+ #roadMapSection .process ul li .boxes.personal {
+	 margin-top: -40px;
+	 margin-left: -49px;
+}
+ #roadMapSection .process ul li .boxes.Goal {
+	 margin-top: -40px;
+	 margin-left: -49px;
+}
+ #roadMapSection .process ul li .boxes.Fitment {
+	 margin-top: -40px;
+	 margin-left: -49px;
+}
+ #roadMapSection .process ul li .boxes.Resume {
+	 margin-top: -40px;
+	 margin-left: -47px;
+}
+ #roadMapSection .process ul li .boxes.Essay {
+	 margin-top: -40px;
+	 margin-left: -49px;
+}
+ #roadMapSection .process ul li .boxes.Letters {
+	 margin-top: -320px;
+	 margin-left: -55px;
+}
+ #roadMapSection .process ul li .boxes.Interview {
+	 margin-top: -285px;
+	 margin-left: -50px;
+}
+ #roadMapSection .process ul li .boxes.scholarship {
+	 margin-top: -285px;
+	 margin-left: -50px;
+}
+ #roadMapSection .process ul li.active {
+	 color: #0487f3;
+	 border-left: 4px solid #0487f3;
+}
+ #popularCourseSection {
+	 padding: 50px 0;
+	 background: #f2f2f2;
+}
+ #popularCourseSection .testimonials {
+	 display: -webkit-box;
+	 display: -ms-flexbox;
+	 display: flex;
+	 background: #002541;
+	 border-radius: 4px;
+	 overflow: hidden;
+}
+ #popularCourseSection .testimonials .imageBox {
+	 width: 190px;
+	 height: 338px;
+	 overflow: hidden;
+	 display: -webkit-box;
+	 display: -ms-flexbox;
+	 display: flex;
+	 -webkit-box-pack: center;
+	 -ms-flex-pack: center;
+	 justify-content: left;
+	 -webkit-box-align: center;
+	 -ms-flex-align: center;
+	 align-items: center;
+}
+ #popularCourseSection .testimonials .imageBox img {
+	 width: 100%;
+}
+ #popularCourseSection .subheading {
+	 font-size: 14px;
+	 color: #000;
+	 margin-top: 35px;
+	 margin-bottom: 20px;
+}
+ #popularCourseSection .swiper-container {
+	 margin-top: 50px;
+}
+ #popularCourseSection .swiper-container .swiper-slide {
+	 padding: 5px;
+	 height: auto;
+}
+ #popularCourseSection .swiper-container .swiper-slide .universityBox {
+	 background: #fff 0 0 no-repeat padding-box;
+	 -webkit-box-shadow: 0 3px 6px #000 29;
+	 box-shadow: 0 3px 6px #000 29;
+	 border-radius: 4px;
+	 opacity: 1;
+	 height: 100%;
+}
+ #popularCourseSection .swiper-container .swiper-slide .universityBox .imgBox {
+	 height: 222px;
+	 overflow: hidden;
+}
+ #popularCourseSection .swiper-container .swiper-slide .universityBox .imgBox img {
+	 width: 100%;
+}
+ #popularCourseSection .swiper-container .swiper-slide .universityBox .details {
+	 padding: 20px;
+	 text-align: center;
+}
+ #popularCourseSection .swiper-container .swiper-slide .universityBox .details .name {
+	 font-size: 20px;
+	 color: #333;
+	 font-weight: 700;
+	 margin-bottom: 15px;
+}
+ #popularCourseSection .swiper-container .swiper-slide .universityBox .details .desc {
+	 font-size: 14px;
+	 color: #333;
+	 font-weight: 600;
+	 margin-bottom: 25px;
+}
+ #popularCourseSection .swiper-container .swiper-slide .universityBox .details .count {
+	 font-size: 14px;
+	 color: #333;
+	 font-weight: 600;
+}
+ #bannerSection {
+	 background: #fff url(../../img/lp/univalley-study-abroad/banner_uk_without_text.png);
+	 background-position: center;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 padding: 50px 0;
+	 position: relative;
+	 overflow: hidden;
+}
+ #bannerSection .bannerDetails {
+    position: relative;
+}
+
+
+ #bannerSection .bannerDetails .testimonials {
+	 display: -webkit-box;
+	 display: -ms-flexbox;
+	 display: flex;
+	 background: #333;
+	 border-radius: 4px;
+	 overflow: hidden;
+}
+ #bannerSection .bannerDetails .testimonials .imageBox {
+	 width: 155px;
+	 height: 270px;
+	 overflow: hidden;
+	 display: -webkit-box;
+	 display: -ms-flexbox;
+	 display: flex;
+	 -webkit-box-pack: center;
+	 -ms-flex-pack: center;
+	 justify-content: left;
+	 -webkit-box-align: center;
+	 -ms-flex-align: center;
+	 align-items: center;
+}
+ #bannerSection .bannerDetails .testimonials .imageBox img {
+	 width: auto;
+	 height: 100%;
+	 width: auto;
+	 height: 100%;
+}
+ #bannerSection .bannerDetails .testimonials .imageBox .playBtn {
+	 position: absolute;
+	 cursor: pointer;
+}
+ #bannerSection .bannerDetails .testimonials .imageBox .playBtn .playicon {
+	 -webkit-transition: 0.5s;
+	 transition: 0.5s;
+}
+ #bannerSection .bannerDetails .testimonials .imageBox .playBtn .playicon:hover {
+	 -webkit-transform: scale(1.1);
+	 transform: scale(1.1);
+}
+ #bannerSection .bannerDetails .testimonials .testiDetails {
+	 -webkit-box-flex: 1;
+	 -ms-flex: 1;
+	 flex: 1;
+	 padding: 20px;
+}
+ #bannerSection .bannerDetails .testimonials .testiDetails .name {
+	 font-size: 24px;
+	 color: #fff;
+	 margin-bottom: 5px;
+}
+ #bannerSection .bannerDetails .testimonials .testiDetails .score {
+	 font-size: 15px;
+	 color: #fff;
+}
+ #bannerSection .bannerDetails .testimonials .testiDetails .desc {
+	 font-size: 14px;
+	 color: #cdcdcd;
+}
+ #bannerSection .bannerDetails .testimonials .testiDetails .desc strong {
+	 color: #e0e0e0;
+}
+ #bannerSection .bannerDetails .testimonials .testiDetails .paginator {
+	 display: -webkit-box;
+	 display: -ms-flexbox;
+	 display: flex;
+	 color: #fff;
+	 -webkit-box-align: center;
+	 -ms-flex-align: center;
+	 align-items: center;
+	 bottom: 35px;
+	 position: absolute;
+}
+ #bannerSection .bannerDetails .testimonials .testiDetails .paginator span {
+	 font-weight: 300;
+}
+ #bannerSection .bannerDetails .testimonials .testiDetails .paginator span.dash {
+	 width: 34px;
+	 height: 1px;
+	 background: #fff;
+	 margin: 10px;
+}
+ #bannerSection .bannerDetails img {
+	 width: 100%;
+	 margin-top: 25px;
+}
+#bannerSection .bannerDetails .tagline {
+    letter-spacing: 0;
+    color: #fff;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#bannerSection .bannerDetails .subTagline {
+    color: #fff;
+    text-transform: capitalize;
+    opacity: 1;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+	width: 79%;
+    margin: 0 auto;
+}
+ #bannerSection .bannerDetails .swiper-container2 .swiper-slide {
+	 padding: 5px;
+}
+ #bannerSection .registerForm {
+	 position: relative;
+	 padding: 20px 25px;
+	 background: #fff 0 0 no-repeat padding-box;
+	 box-shadow: unset;
+	 border-radius: 4px;
+	 opacity: 1;
+	 background: #eaeaea;
+	 border-radius: 8px;
+	 z-index: 2;
+	 max-width: 418px;
+}
+ #bannerSection .registerForm h2 {
+	 font-size: 18px;
+}
+ #bannerSection .registerForm form label {
+	 color: #666;
+	 font-size: 12px;
+	 font-weight: 500;
+	 flex: 1;
+	 padding-left: 10px;
+}
+ #bannerSection .registerForm form .form-control {
+	 font-weight: 500;
+	 color: #000;
+	 border: 1px solid #e1e1e1;
+	 height: 40px;
+	 margin-bottom: 5px;
+	 outline: 0;
+	 box-shadow: unset;
+	 font-size: 12px;
+	 line-height: 16px;
+	 display: flex;
+	 align-items: center;
+	 color: #666;
+}
+ #bannerSection .registerForm form .form-check .form-check-input {
+	 height: 17px;
+	 width: 20px;
+	 text-align: left;
+	 margin-right: 10px;
+	 margin-top: 0;
+}
+ #bannerSection .registerForm form .btn-black {
+	 margin-top: 25px;
+	 height: 40px;
+	 font-weight: 600;
+	 background: #000;
+	 color: #fff;
+	 font-style: normal;
+	 font-size: 14px;
+	 line-height: 12px;
+	 color: #fff;
+}
+ h1 {
+	 font-weight: 600;
+}
+ h2 {
+	 font-weight: 600;
+}
+ h3 {
+	 font-weight: 600;
+}
+ h4 {
+	 font-weight: 600;
+}
+ h5 {
+	 font-weight: 600;
+}
+ h6 {
+	 font-weight: 600;
+}
+ a {
+	 font-weight: 500;
+}
+ li {
+	 font-weight: 500;
+}
+ p {
+	 font-weight: 500;
+}
+ span {
+	 font-weight: 500;
+}
+ nav {
+	 background: #002541;
+}
+ nav .navbar-brand .logo {
+	 height: 40px;
+}
+ nav .nav-link {
+	 color: #fff;
+	 font-size: 15px;
+	 margin-top: -18px;
+}
+ .heading {
+	 font-size: 27px;
+	 font-weight: 700;
+	 position: relative;
+	 text-transform: capitalize;
+}
+ .heading::before {
+	 content: "";
+	 position: absolute;
+	 bottom: -15px;
+	 height: 2px;
+	 width: 50px;
+	 background: #000;
+	 left: 50%;
+	 -webkit-transform: translate(-50%);
+	 transform: translate(-50%);
+}
+ #topUniversities {
+	 padding: 20px 0;
+	 background: #fff;
+}
+ #topUniversities h2 {
+	 margin-bottom: 30px;
+}
+ #topUniversities .nav-tabs {
+	 font-weight: 600;
+}
+ #topUniversities .nav-tabs li a {
+	 font-weight: 600;
+	 padding: 5px 20px;
+	 display: inline-block;
+	 color: #000;
+	 text-decoration: none;
+}
+ #topUniversities .nav-tabs li a.active {
+	 border: 1px solid #d9d9da;
+	 border-radius: 5px 5px 0 0;
+	 background: #fff;
+	 border-bottom: 0;
+}
+ #topUniversities .tab-content {
+	 background: #fff 0 0 no-repeat padding-box;
+	 border: 1px solid #d9d9da;
+	 opacity: 1;
+	 padding: 12px;
+	 border-radius: 0 0 5px 5px;
+	 margin-top: -2px;
+	 overflow: hidden;
+}
+ #topUniversities .tab-content .swiper-container .swiper-slide {
+	 padding: 5px;
+	 height: auto;
+}
+ #topUniversities .tab-content .swiper-container .swiper-slide .universityBox {
+	 background: #fff 0 0 no-repeat padding-box;
+	 /* -webkit-box-shadow: 0 3px 6px #000 29; */
+	 box-shadow: 0 3px 6px #ddd ;
+	 border-radius: 4px;
+	 opacity: 1;
+	 height: 100%;
+}
+ #topUniversities .tab-content .swiper-container .swiper-slide .universityBox .imgBox {
+	 height: 210px;
+	 overflow: hidden;
+	 text-align: center;
+	 display: flex;
+	 align-items: center;
+	 justify-content: center;
+}
+ #topUniversities .tab-content .swiper-container .swiper-slide .universityBox .imgBox img {
+	 max-width: 100%;
+	 max-height: 100%;
+	 padding: 30px;
+	 height: auto;
+}
+ #topUniversities .tab-content .swiper-container .swiper-slide .universityBox .details {
+	 padding: 20px;
+}
+ #topUniversities .tab-content .swiper-container .swiper-slide .universityBox .details .name {
+	 font-size: 14px;
+	 font-weight: 700;
+	 color: #333;
+	 margin-bottom: 25px;
+}
+ #topUniversities .tab-content .swiper-container .swiper-slide .universityBox .details .city {
+	 font-size: 12px;
+	 color: #919eab;
+	 font-weight: 700;
+}
+ #topUniversities .tab-content .swiper-container .swiper-slide .universityBox .details .title {
+	 font-size: 14px;
+	 font-weight: 600;
+}
+ #topUniversities .tab-content .swiper-container .swiper-slide .universityBox .details .title img {
+	 margin-right: 7px;
+	 margin-top: -5px;
+}
+ #topUniversities .tab-content .swiper-container .swiper-slide .universityBox .details ol {
+	 padding: 0 15px;
+}
+ #topUniversities .tab-content .swiper-container .swiper-slide .universityBox .details ol li {
+	 font-size: 12px;
+	 margin-bottom: 10px;
+}
+ #whyLeverageEduSection {
+	 padding: 50px 0;
+	 background: #f2f2f2;
+}
+ #whyLeverageEduSection .imgBox {
+	 padding: 10px;
+	 border-radius: 4px;
+	 height: 100%;
+	 text-align: center;
+}
+ #whyLeverageEduSection .imgBox img {
+	 max-width: 100%;
+	 max-height: 75px;
+	 margin-bottom: 10px;
+}
+ #whyLeverageEduSection .imgBox p {
+	 text-align: center;
+	 font-size: 13px;
+	 font-weight: 600;
+}
+ #whyLeverageEduSection .whyContent {
+	 padding: 10px;
+	 border-radius: 4px;
+	 height: 100%;
+}
+ #whyLeverageEduSection .whyContent .whyImg {
+	 height: 65px;
+}
+ #whyLeverageEduSection .whyContent .title {
+	 font-size: 24px;
+	 color: #000;
+	 margin-top: 12px;
+	 font-weight: 700;
+}
+ #whyLeverageEduSection .whyContent .subtitle {
+	 font-size: 14px;
+	 color: #333;
+	 margin: 0;
+}
+ .whiteBG {
+	 background: #fff;
+	 border: 1px solid #d8d8d8;
+	 box-sizing: border-box;
+	 box-shadow: 0 2px 12px rgba(0, 0, 0, .12);
+	 border-radius: 8px;
+}
+ #mentorSection {
+	 padding: 50px 0 0;
+	 background: #f2f2f2;
+}
+ #mentorSection .heading {
+	 margin-bottom: 50px;
+}
+ #mentorSection .subheading {
+	 font-size: 16px;
+	 color: #000;
+	 margin-top: 35px;
+	 margin-bottom: 20px;
+}
+ #mentorSection .swiper-container .swiper-wrapper {
+	 padding-bottom: 50px;
+}
+ #mentorSection .swiper-container .swiper-slide {
+	 padding: 5px;
+	 height: auto;
+}
+ #mentorSection .swiper-container .swiper-slide .universityBox {
+	 background: #fff 0 0 no-repeat padding-box;
+	 -webkit-box-shadow: 0 3px 6px #000 29;
+	 box-shadow: 0 3px 6px #000 29;
+	 border-radius: 4px;
+	 opacity: 1;
+	 height: 100%;
+}
+ #mentorSection .swiper-container .swiper-slide .universityBox .imgBox {
+	 height: 310px;
+	 overflow: hidden;
+}
+ #mentorSection .swiper-container .swiper-slide .universityBox .imgBox img {
+	 width: 100%;
+}
+ #mentorSection .swiper-container .swiper-slide .universityBox .details {
+	 padding: 20px;
+	 text-align: center;
+}
+ #mentorSection .swiper-container .swiper-slide .universityBox .details .name {
+	 font-size: 20px;
+	 font-weight: 700;
+	 color: #333;
+}
+ #mentorSection .swiper-container .swiper-slide .universityBox .details .designation {
+	 font-size: 14px;
+	 color: #333;
+	 font-weight: 700;
+	 margin-bottom: 15px;
+}
+ #mentorSection .swiper-container .swiper-slide .universityBox .details .desc {
+	 color: #333;
+	 font-size: 14px;
+}
+ #mentorSection .swiper-container .swiper-slide .universityBox .details .moreDetails img {
+	 max-height: 50px;
+	 max-width: 100%;
+}
+ #mentorSection .swiper-container .swiper-slide .universityBox .details .moreDetails .abt {
+	 color: #333;
+	 font-size: 15px;
+	 margin-top: 10px;
+}
+ #whyStudyAbroad {
+	 padding: 50px 0;
+	 background: #f2f2f2;
+}
+ #whyStudyAbroad ul li {
+	 font-weight: 600;
+	 font-size: 16px;
+	 margin-bottom: 15px;
+}
+ #whyStudyAbroad .description {
+	 font-size: 14px;
+	 color: #333;
+	 padding-right: 20%;
+	 line-height: 25px;
+	 font-weight: 600;
+}
+ #whyStudyAbroad .cityImage {
+	 width: 100%;
+}
+ footer {
+	 padding: 50px 0;
+	 overflow: hidden;
+}
+ footer .btn-white {
+	 display: inline-block;
+	 padding: 10px 12px;
+	 border-radius: 50px;
+	 font-weight: 600;
+	 border: 1px solid;
+	 text-decoration: none;
+	 -webkit-transition: 1.5s;
+	 transition: 1.5s;
+	 font-size: 12px;
+}
+ footer .header {
+	 margin-bottom: 40px;
+	 color: #595959;
+	 font-weight: 700;
+}
+ footer .state {
+	 font-size: 20px;
+	 font-weight: 700;
+}
+ footer .area {
+	 font-size: 18px;
+	 color: #333;
+}
+ footer .address {
+	 font-size: 14px;
+	 color: #333;
+}
+ .testimonials .testiDetails {
+	 -webkit-box-flex: 1;
+	 -ms-flex: 1;
+	 flex: 1;
+	 padding: 20px;
+	 color: #fff;
+}
+ .testimonials .testiDetails h2 {
+	 font-size: 24px;
+	 font-weight: 500;
+}
+ .testimonials .testiDetails .desc {
+	 line-height: 26px;
+	 margin-top: 15px;
+}
+ .mobile-show {
+	 display: none;
+}
+ .mobile-hide {
+	 display: block;
+}
+ .mobile-banner {
+	 display: none;
+}
+ .form-check {
+	 position: relative;
+	 display: flex !important;
+	 padding-left: 0;
+}
+ .white-wave {
+	 width: 100%;
+	 z-index: 1;
+	 position: absolute;
+	 bottom: -115px;
+}
+ .swiper-container .swiper-button-next {
+	 background-image: url(../img/icons/noun_Arrow-right.svg);
+	 background-repeat: no-repeat;
+	 background-size: 100% auto;
+	 background-position: center;
+	 right: 30px;
+	 left: auto;
+	 top: 25%;
+	 outline: 0;
+}
+ .swiper-container .swiper-button-next::after {
+	 display: none;
+}
+ .swiper-container .swiper-button-prev {
+	 background-image: url(../img/icons/noun_Arrow-left.svg);
+	 background-repeat: no-repeat;
+	 background-size: 100% auto;
+	 background-position: center;
+	 left: 30px;
+	 right: auto;
+	 top: 25%;
+	 outline: 0;
+}
+ .swiper-container .swiper-button-prev::after {
+	 display: none;
+}
+ .swiper-container3 .swiper-button-prev {
+	 background-image: url(../img/icons/noun_Arrow-left.svg);
+	 background-repeat: no-repeat;
+	 background-size: 100% auto;
+	 background-position: center;
+	 left: 30px;
+	 right: auto;
+	 top: 25%;
+	 outline: 0;
+}
+ .swiper-container2 .swiper-button-next {
+	 background-image: url(../img/icons/RightSlide.svg);
+	 background-repeat: no-repeat;
+	 background-size: 100% auto;
+	 background-position: center;
+	 right: 30px;
+	 left: auto;
+	 bottom: 25px;
+	 top: unset;
+	 outline: 0;
+}
+ .swiper-container2 .swiper-button-next::after {
+	 display: none;
+}
+ .swiper-container2 .swiper-button-prev {
+	 background-image: url(../img/icons/LeftSlide.svg);
+	 background-repeat: no-repeat;
+	 background-size: 100% auto;
+	 background-position: center;
+	 right: 80px;
+	 left: auto;
+	 bottom: 25px;
+	 top: unset;
+	 outline: 0;
+}
+ .swiper-container2 .swiper-button-prev::after {
+	 display: none;
+}
+ .form-control:active {
+	 -webkit-box-shadow: unset;
+	 box-shadow: unset;
+	 border: 1px solid #407fc2 !important;
+}
+ .form-control:focus {
+	 -webkit-box-shadow: unset;
+	 box-shadow: unset;
+	 border: 1px solid #407fc2 !important;
+}
+ .whatsapp {
+	 position: fixed;
+	 height: 50px;
+	 width: 50px;
+	 bottom: 50px;
+	 right: 50px;
+	 -webkit-transition: 0.5s;
+	 transition: 0.5s;
+}
+ .whatsapp:hover {
+	 -webkit-transform: scale(1, 1.1);
+	 transform: scale(1, 1.1);
+}
+ .custom-button {
+	 padding: 17px 0px;
+	 position: fixed;
+	 top: unset;
+	 right: 0;
+	 background: #002541;
+	 color: #fff;
+	 border-radius: 5px;
+	 width: 100%;
+	 overflow: hidden;
+	 text-align: center;
+	 z-index: 9999;
+	 bottom: 0;
+	 left: 0;
+	 font-size: 17px;
+}
+ .custom-button:focus {
+	 color: #fff !important;
+}
+ .custom-button:active {
+	 color: #fff !important;
+}
+ .custom-button:visited {
+	 color: #fff !important;
+}
+ .whitecolor {
+	 color: #fff;
+}
+@media (min-width:1500px) {
+	#bannerSection {
+		padding: 110px 0 !important;
+   }
+   #bannerSection .bannerDetails{
+	   width: 722px;
+	   margin-top: 82px;
+   }
+   #bannerSection .bannerDetails .bannerText{
+	   max-width: 519px;
+	   margin: 0 auto;
+   }
+}
+
+@media (max-width: 1500px) and (min-width: 1100px){
+	#bannerSection .bannerDetails{
+		width: 72%;
+	}
+	#bannerSection .bannerDetails .bannerText .tagline{
+		width: 474px;
+		margin: 0 auto;
+		font-size: 28px;
+		line-height: 35px;
+	}
+	#bannerSection .bannerDetails .bannerText .subTagline{
+		width: 343px;
+		font-size: 18px;
+		margin-top: 20px;
+	}
+}
+@media (max-width: 1099px) and (min-width: 768px){
+	#bannerSection .bannerDetails{
+		width: 72%;
+	}
+	#bannerSection .bannerDetails .bannerText .tagline{
+		width: 365px;
+		margin: 0 auto;
+		font-size: 18px;
+	}
+	#bannerSection .bannerDetails .bannerText .subTagline{
+		width: 200px;
+		font-size: 13px;
+		margin-top: 20px;
+	}
+}
+ @media (max-width: 992px) {
+	 .mobile-show {
+		 display: block !important;
+	}
+	 .mobile-hide {
+		 display: none !important;
+	}
+	 #leverageProcessRoadmap.mobile {
+		 overflow: hidden;
+		 padding: 0;
+		 display: block !important;
+		 padding-bottom: 30px;
+	}
+	 #leverageProcessRoadmap.mobile #accordionExample .card .card-header button .header h5 {
+		 line-height: 17px !important;
+	}
+	 #whyStudyAbroad ul li {
+		 font-size: 14px !important;
+	}
+	 #mentorSection .swiper-container .swiper-slide .universityBox .details .moreDetails img.small {
+		 margin-top: 10px;
+		 max-height: 35px;
+	}
+	 #bannerSection .bannerDetails img {
+		 margin-bottom: -16px !important;
+		 margin-top: 0 !important;
+	}
+	 #bannerSection .registerForm form .btn-black {
+		 margin-top: 5px !important;
+		 font-size: 13px !important;
+	}
+	 #whyLeverageEduSection .imgBox img {
+		 max-height: 60px !important;
+	}
+	 #whyLeverageEduSection .imgBox p {
+		 font-size: 11px !important;
+		 margin-bottom: 0;
+	}
+	 #roadMapSection {
+		 display: none;
+	}
+	 nav.navbar .navbar-toggler {
+		 margin-top: -15px;
+		 border: 0;
+		 outline: 0;
+	}
+	 nav.navbar .nav-link {
+		 display: block;
+		 text-align: left;
+		 font-size: 13px;
+		 width: 100%;
+		 padding: 15px;
+	}
+	 .container {
+		 padding: 0 !important;
+		 overflow: hidden;
+	}
+	 .heading {
+		 font-size: 15px !important;
+	}
+	 #bannerSection {
+		 padding: 0 !important;
+	}
+	 #bannerSection::before {
+		 opacity: 0.6 !important;
+	}
+	 #bannerSection .tagline {
+		 font-size: 20px !important;
+		 margin-bottom: 10px;
+		 line-height: 30px;
+		 color: #fff !important;
+	}
+	 #bannerSection .subTagline {
+		 font-size: 18px !important;
+	}
+	 #bannerSection .bannerDetails {
+		 padding: 0 0 15px;
+	}
+	 #bannerSection .swiper-slide {
+		 height: auto;
+	}
+	 #bannerSection .swiper-container2 .swiper-button-next {
+		 bottom: 25px !important;
+	}
+	 #bannerSection .swiper-container2 .swiper-button-prev {
+		 bottom: 25px !important;
+	}
+	 #bannerSection .testimonials {
+		 height: 100%;
+	}
+	 #bannerSection .testimonials .imageBox {
+		 width: 126px !important;
+		 height: 250px !important;
+		 -webkit-box-align: start !important;
+		 -ms-flex-align: start !important;
+		 align-items: flex-start !important;
+	}
+	 #bannerSection .testimonials .imageBox img {
+		 width: auto !important;
+		 height: 100% !important;
+	}
+	 #bannerSection .testimonials .testiDetails {
+		 padding: 7px !important;
+	}
+	 #bannerSection .testimonials .testiDetails .name {
+		 font-size: 14px !important;
+	}
+	 #bannerSection .testimonials .testiDetails .desc {
+		 font-size: 11px !important;
+		 margin-bottom: 0;
+	}
+	 #bannerSection .testimonials .testiDetails .paginator {
+		 left: 20px;
+		 bottom: 20px !important;
+	}
+	 #bannerSection .registerForm {
+		 padding: 15px 15px !important;
+	}
+	 #bannerSection .registerForm h2 {
+		 text-align: center;
+		 font-weight: 700;
+		 width: 80%;
+		 margin: 0 auto;
+		 margin-bottom: 10px;
+		 font-size: 17px !important;
+	}
+	 .form-check {
+		 margin-top: 10px !important;
+		 margin-bottom: 10px !important;
+	}
+	 .formGroup {
+		 margin-bottom: 5px !important;
+		 margin-top: 0 !important;
+	}
+	 #ctaSection {
+		 background: #f2f2f2;
+	}
+	 #ctaSection .btn-white {
+		 display: inline-block;
+		 padding: 10px 30px;
+		 margin-bottom: 10px;
+		 border-radius: 50px;
+		 margin-top: 10px;
+		 font-weight: 600;
+		 border: 1px solid;
+	}
+	 #topUniversities {
+		 padding: 10px 0 0 !important;
+	}
+	 #topUniversities .nav-tabs {
+		 padding-left: 30px;
+		 white-space: nowrap;
+		 -ms-flex-flow: nowrap;
+		 flex-flow: nowrap;
+		 overflow: auto;
+	}
+	 #topUniversities .nav-tabs li a {
+		 font-weight: 600;
+		 padding: 5px 8px !important;
+		 display: inline-block;
+		 color: #333;
+		 opacity: 0.3;
+		 text-decoration: none;
+		 font-size: 14px;
+	}
+	 #topUniversities .nav-tabs li a.active {
+		 border: unset !important;
+		 border-radius: 5px 5px 0 0 !important;
+		 background: unset !important;
+		 border-bottom: 0 !important;
+		 font-weight: 700;
+		 color: #407fc2;
+		 opacity: 1;
+	}
+	 #topUniversities .tab-content {
+		 padding: 0 !important;
+		 background: 0 0 !important;
+		 border: unset !important;
+	}
+	 #topUniversities .tab-content .swiper-container {
+		 padding: 10px 40px !important;
+	}
+	 #topUniversities .tab-content .swiper-container .swiper-slide .universityBox .imgBox {
+		 height: 175px !important;
+		 line-height: 175px;
+	}
+	 #topUniversities .tab-content .swiper-container .swiper-slide .universityBox .details .name {
+		 font-size: 16px !important;
+	}
+	 #topUniversities .tab-content .swiper-container .swiper-slide .universityBox .details .city {
+		 color: #000 !important;
+		 font-weight: 500 !important;
+		 border-bottom: 1px solid #ddd !important;
+		 padding-bottom: 15px !important;
+	}
+	 #topUniversities .tab-content .swiper-container .swiper-slide .universityBox .details .title {
+		 font-weight: 600 !important;
+	}
+	 #whyLeverageEduSection {
+		 padding: 30px 20px !important;
+	}
+	 #whyLeverageEduSection .col {
+		 min-width: 175px;
+	}
+	 #whyLeverageEduSection .whyContent {
+		 background: #fff;
+		 padding: 20px;
+		 margin-bottom: 10px;
+		 border-radius: 4px;
+	}
+	 #whyLeverageEduSection .whyContent .whyImg {
+		 height: 60px;
+	}
+	 #whyLeverageEduSection .whyContent .title {
+		 margin-top: 10px !important;
+		 font-size: 20px !important;
+		 color: #333 !important;
+		 margin-bottom: 0;
+	}
+	 #whyLeverageEduSection .whyContent .subtitle {
+		 font-size: 10px !important;
+		 color: #333;
+	}
+	 #whyStudyAbroad {
+		 padding: 30px 30px !important;
+	}
+	 #whyStudyAbroad .cityImage {
+		 margin-bottom: 25px;
+	}
+	 #whyStudyAbroad .description {
+		 padding-right: 0 !important;
+		 font-weight: 600;
+		 text-align: left;
+	}
+	 #mentorSection .subheading {
+		 font-size: 12px !important;
+		 padding: 0 30px;
+	}
+	 #mentorSection .swiper-container {
+		 padding: 0 40px;
+	}
+	 #mentorSection .swiper-container .swiper-slide .universityBox .imgBox {
+		 height: 270px !important;
+	}
+	 #mentorSection .swiper-container .swiper-slide .universityBox .imgBox img {
+		 width: 100% !important;
+		 height: auto;
+	}
+	 #mentorSection .swiper-container .swiper-slide .universityBox .details .name {
+		 font-size: 16px !important;
+	}
+	 #mentorSection .swiper-container .swiper-slide .universityBox .details .designation {
+		 font-size: 12px !important;
+		 font-weight: 600 !important;
+	}
+	 #mentorSection .swiper-container .swiper-slide .universityBox .details .desc {
+		 font-size: 12px !important;
+	}
+	 #mentorSection .swiper-container .swiper-slide .universityBox .details .col-6 {
+		 padding: 0 !important;
+	}
+	 #mentorSection .swiper-container .swiper-slide .universityBox .details .col-6 .moreDetails .abt {
+		 font-weight: 600 !important;
+	}
+	 #popularCourseSection {
+		 padding: 30px 0 50px !important;
+	}
+	 #popularCourseSection .subheading {
+		 padding: 0 20px !important;
+		 font-size: 12px !important;
+	}
+	 #popularCourseSection .swiper-container {
+		 padding: 0;
+	}
+	 #popularCourseSection .swiper-container .universityBox .imgBox {
+		 height: 160px !important;
+		 overflow: hidden;
+	}
+	 footer {
+		 padding: 30px !important;
+	}
+}
+ @media (max-width: 767px) {
+	#bannerSection .bannerDetails{
+		margin-top: 0;
+	}
+	#bannerSection .bannerDetails .tagline{
+		font-size: 10px !important;
+	}
+	#bannerSection .subTagline {
+		font-size: 8px !important;
+	}
+	 .container {
+		 margin: 0;
+		 max-width: 100%;
+	}
+	 footer {
+		 margin-bottom: 33px !important;
+	}
+	 .testimonials {
+		 height: 97%;
+	}
+	 .testimonials .imageBox {
+		 width: 126px !important;
+		 height: 250px !important;
+		 -webkit-box-align: start !important;
+		 -ms-flex-align: start !important;
+		 align-items: flex-start !important;
+		 width: 125px !important;
+	}
+	 .testimonials .imageBox img {
+		 width: auto !important;
+		 height: 100% !important;
+	}
+	 .testimonials .testiDetails {
+		 padding: 7px !important;
+		 padding: 15px !important;
+	}
+	 .testimonials .testiDetails .name {
+		 font-size: 14px !important;
+	}
+	 .testimonials .testiDetails .desc {
+		 font-size: 13px !important;
+		 margin-bottom: 0 !important;
+		 line-height: 12px;
+	}
+	 .testimonials .testiDetails .paginator {
+		 left: 20px;
+		 bottom: 20px !important;
+	}
+	 .desc {
+		 line-height: 18px !important;
+	}
+	 #leverageProcessRoadmap .imgLeveProcess img {
+		 width: 50%;
+	}
+	 #whyLeverageEduSection .whyContent {
+		 height: 100%;
+	}
+	 #whyLeverageEduSection .whyContent .whyImg {
+		 height: 70px !important;
+	}
+	 #whyLeverageEduSection .whyContent .subtitle {
+		 margin-bottom: 0;
+	}
+	 #mentorSection {
+		 padding-bottom: 0 !important;
+	}
+	 #mentorSection .swiper-container .swiper-slide .universityBox .imgBox {
+		 height: 213px !important;
+	}
+	 #mentorSection .swiper-container .swiper-slide .universityBox .details .moreDetails img {
+		 max-height: 50px;
+		 max-width: 90% !important;
+	}
+	 #popularCourseSection .swiper-container .universityBox .imgBox {
+		 height: 136px !important;
+	}
+	 #popularCourseSection .swiper-container .universityBox .details .name {
+		 font-size: 18px !important;
+	}
+	 #popularCourseSection .swiper-container .universityBox .details .desc {
+		 font-size: 13px !important;
+		 margin-bottom: 0 !important;
+	}
+	 #topUniversities .tab-content .swiper-container .swiper-slide .universityBox .imgBox {
+		 height: 150px !important;
+		 overflow: hidden;
+		 text-align: center;
+	}
+}
+ @media (max-width: 1300px) {
+	 #roadMapSection .d-lg-block {
+		 display: none !important;
+	}
+	 #roadMapSection .col-sm-8 {
+		 max-width: 100% !important;
+		 -webkit-box-flex: 1;
+		 -ms-flex: 1;
+		 flex: 1;
+	}
+	#bannerSection .bannerDetails {
+		position: relative;
+	}
+}
+ @media only screen and (min-device-width: 1024px) and (max-device-height: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+	 #bannerSection .registerForm h2 {
+		 font-size: 17px;
+	}
+	 #bannerSection .bannerDetails .tagline {
+		 font-size: 35px !important;
+	}
+	 #bannerSection .bannerDetails .testimonials .testiDetails .name {
+		 font-size: 18px !important;
+	}
+	 #bannerSection .bannerDetails .testimonials .testiDetails .desc {
+		 font-size: 13px;
+	}
+}
+ @media (max-width: 990px) and (min-width: 768px) {
+	 #bannerSection .col-md-5 {
+		 max-width: 100% !important;
+		 -webkit-box-flex: 1;
+		 -ms-flex: 1;
+		 flex: 1;
+	}
+	 #bannerSection .col-md-7 {
+		 max-width: 100% !important;
+		 -webkit-box-flex: 1;
+		 -ms-flex: 1;
+		 flex: 1;
+	}
+	 #bannerSection .pl-md-5 {
+		 padding: 20px !important;
+	}
+
+}
+ @media (max-width: 800px) and (min-width: 500px) {
+	 .uni-name {
+		 font-size: 12px;
+		 color: #fff;
+		 margin-bottom: 5px;
+		 font-weight: 600;
+	}
+}
+ @media (max-width: 500px) and (min-width: 200px) {
+	 .mobile-banner {
+		 display: block;
+	}
+	#bannerSection{
+		background: unset;
+	}
+	#bannerSection .col-md-7{
+		padding: 0;
+	}
+	#bannerSection .bannerDetails {
+		position: relative;
+		margin-left: 0;
+		max-width: 100%;
+	}
+	#bannerSection .bannerDetails .bannerText {
+		position: absolute;
+		top: 38%;
+		width: 61%;
+		left: 10px;
+	}
+	#bannerSection .bannerDetails .tagline {
+		font-size: 12px !important;
+		line-height: 16px;
+		margin-bottom: 10px;
+	}
+	#bannerSection .subTagline {
+		font-size: 10px !important;
+		width: 84% !important;
+	}	
+	 #bannerSection .bg-white-mobile {
+		 padding: 10px 20px;
+		 background: #fff;
+		 
+	}
+	 .uni-name {
+		 font-size: 5px;
+		 color: #fff;
+		 margin-bottom: 5px;
+		 font-weight: 600;
+	}
+}
+@media (max-width: 419px) {
+	#bannerSection .bannerDetails .bannerText {
+		padding-left: 10px;
+	}
+	#bannerSection .bannerDetails{
+		margin-top: 0;
+	}
+	#bannerSection .bannerDetails .tagline{
+		font-size: 12px !important;
+	}
+	#bannerSection .subTagline {
+		font-size: 10px !important;
+	}
+}
+ @media only screen and (min-device-width: 361px) and (max-device-width: 414px) {
+	 #bannerSection .swiper-slide {
+		 height: 260px !important;
+	}
+	 #bannerSection .bannerDetails .testimonials .imageBox {
+		 min-height: 100% !important;
+	}
+}
+ @media only screen and (max-device-width: 320px) {
+	 #bannerSection .swiper-slide {
+		 height: 340px !important;
+	}
+	 #bannerSection .bannerDetails .testimonials .imageBox {
+		 min-height: 100% !important;
+	}
+	 #bannerSection .bannerDetails .testimonials .imageBox img {
+		 position: relative;
+		 right: 2rem;
+	}
+}
+ @media only screen and (min-device-width: 321px) and (max-device-width: 360px) {
+	 #bannerSection .swiper-slide {
+		 height: 290px !important;
+	}
+	 #bannerSection .bannerDetails .testimonials .imageBox {
+		 min-height: 100% !important;
+	}
+	 #bannerSection .bannerDetails .testimonials .imageBox img {
+		 position: relative;
+		 right: 1rem;
+	}
+}
+ @media (max-width: 320px) {
+	 .testimonials .testiDetails .name {
+		 font-size: 13px !important;
+	}
+	 .testimonials .testiDetails .desc {
+		 font-size: 11px !important;
+		 margin-bottom: 0 !important;
+	}
+	 .testimonials .imageBox {
+		 width: 95px !important;
+		 height: 200px !important;
+	}
+	 .desc {
+		 line-height: 15px !important;
+	}
+}
+ 
